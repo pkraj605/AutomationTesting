@@ -32,6 +32,9 @@ public class PostImage extends Superclass{
 		//click on Submit button
 		getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[5]/div[2]/div/div/button")).click();
 		Thread.sleep(10000);
+		//click last change
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[5]/div[2]/div/div/button")).click();
+				Thread.sleep(10000);
 		
 		
 

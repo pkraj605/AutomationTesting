@@ -46,6 +46,13 @@ public class CreateCompanyPage extends Superclass{
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div/div[2]/div/div[2]/div/form/div[2]/div/button")).click();
 				Thread.sleep(8000);
 				
+				//Submitting otp
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div/div[2]/div/div[2]/div/form/div[2]/div/button")).click();
+				Thread.sleep(8000);
+				
+				//last change
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div/div[2]/div/div[2]/div/form/div[2]/div/button")).click();
+				Thread.sleep(8000);
 		
 		
 	}
