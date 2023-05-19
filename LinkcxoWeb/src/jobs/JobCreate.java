@@ -24,7 +24,7 @@ public class JobCreate extends Superclass{
 		Thread.sleep(4000);
 
 		//Enter Job title
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div/div/form/div[1]/div[2]/div/div[1]/div/div/input")).sendKeys("Marketing New Job ");
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div/div/form/div[1]/div[2]/div/div[1]/div/div/input")).sendKeys("Marketing New Job new  ");
 		Thread.sleep(4000);
 
 		//Enter company name
