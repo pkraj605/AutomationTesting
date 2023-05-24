@@ -15,14 +15,17 @@ public class CreateEvent extends Superclass{
 		AuthCommon auth = new AuthCommon();
 		auth.login();
 		
+		//click on three dot tab
+		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/header/div/div/div[2]/div[3]/div[6]/button")).click();
+		Thread.sleep(3000);
 		
-		//Click on Event Tab
-		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/header/div/div/div[2]/div[3]/div[3]/div[2]/h2")).click();
-		Thread.sleep(5000);
+		//click on event tab
+		driver.findElement(By.xpath("/html/body/div[2]/div[3]/ul/ul[1]/li[2]/div[2]/span")).click();
+		Thread.sleep(4000);
 		
-		//Click on Create Event Button
+		//click creat event tab
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[1]/div/button[3]/div/div/h5")).click();
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 
 		
 		//Select Image
