@@ -37,31 +37,56 @@ public class PollCreate extends Superclass{
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div[1]/div/div/div/div[2]/div[3]/div[2]/h6")).click();
 				Thread.sleep(4000);
 				
-				//Enter article heading
+				//Enter Poll Heading
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[2]/div[1]/div/textarea[1]")).sendKeys("Poll Vote is Right?");
 				Thread.sleep(4000);
 				
-				//Enter article heading
+				//Enter poll option one
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/form/div[1]/div/div[2]/div/div/div/input")).sendKeys("Yes");
 				Thread.sleep(4000);
 				
-				//Enter article heading
+				//Enter poll option two
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/form/div[2]/div/div[2]/div/div/div/input")).sendKeys("No");
 				Thread.sleep(4000);
 				
-				//Enter Article text
+				//Enter select poll date
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/form/div[4]/div/div[2]/div/div/div")).click();
 				Thread.sleep(5000);
 				
-				//Enter Article text
+				//Enter select poll date
 				driver.findElement(By.xpath("/html/body/div[3]/div[3]/ul/li[2]")).click();
 				Thread.sleep(4000);
 				
-				//Enter Article text
+				//Click on Post
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/form/div[5]/div[2]/div/div[1]/div/button")).click();
 				Thread.sleep(4000);
 				
+				//----------------------------
 				
+				//Poll Vote
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[2]/div/div/div[1]/div[1]/label/span/input")).click();
+				Thread.sleep(4000);
+				
+				
+				//click on like button
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[1]/div/button")).click();
+				Thread.sleep(8000);
+				
+				//click on comment Button
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[2]/div/button")).click();
+				Thread.sleep(5000);
+				
+				//Enter comment data
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/div/div/div[1]/div/div[2]/div/div/div/textarea[1]")).sendKeys("Test Data");
+				Thread.sleep(5000);
+				
+				//click on post Button
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/div/div/div[1]/div/div[3]/div/div/button")).click();
+				Thread.sleep(5000);
+			
+				//click on comment Button
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[2]/div/button")).click();
+				Thread.sleep(5000);
 				
 				
 		}

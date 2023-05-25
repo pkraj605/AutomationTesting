@@ -48,8 +48,33 @@ public class PostCreate extends Superclass{
 				chooseFile.sendKeys("D:/download.png");
 				
 				//click on Submit button
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[5]/div[2]/div/div/button")).click();
+				//getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[5]/div[2]/div/div/button")).click();
+				Thread.sleep(20000);
+							
+				
+				//click on like button
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[1]/div/button")).click();
 				Thread.sleep(8000);
+				
+				//click on comment Button
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[2]/div/button")).click();
+				Thread.sleep(5000);
+				
+				//Enter comment data
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/div/div/div[1]/div/div[2]/div/div/div/textarea[1]")).sendKeys("Test Data");
+				Thread.sleep(5000);
+				
+				//click on post Button
+				getdriver().findElement(By.xpath("//button[normalize-space()='Post']")).click();
+				Thread.sleep(5000);
+				
+				//click on comment Button
+				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[2]/div/button")).click();
+				Thread.sleep(5000);
+				
+				
+				
+				
 				
 				
 	}
