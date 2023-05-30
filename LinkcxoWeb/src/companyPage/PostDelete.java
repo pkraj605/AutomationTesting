@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import commonClassLinkcxo.AuthCommon;
 import commonClassLinkcxo.Superclass;
 
-public class PostCreate extends Superclass{
+public class PostDelete extends Superclass{
 
 	public static void main(String[] args) throws InterruptedException {
 		
@@ -49,33 +49,18 @@ public class PostCreate extends Superclass{
 				
 				//click on Submit button
 				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[5]/div[2]/div/div/button")).click();
-				Thread.sleep(20000);
+				Thread.sleep(30000);
 				
-				
-				//click on like button
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[1]/div/button")).click();
-				Thread.sleep(8000);
-				
-				//click on comment Button
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[2]/div/button")).click();
+				//Delete post
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/div/button")).click();
 				Thread.sleep(5000);
-				
-				//Enter comment data
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/div/div/div[1]/div/div[2]/div/div/div/textarea[1]")).sendKeys("Test Data");
-				Thread.sleep(5000);
-				
-				//click on post Button
-				getdriver().findElement(By.xpath("//button[normalize-space()='Post']")).click();
-				Thread.sleep(5000);
-				
-				//click on comment Button
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[2]/div/button")).click();
-				Thread.sleep(5000);
-				
-				
-				
-				
-				
+
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/div/div/div/div/ul/li[2]/div/span")).click();
+				Thread.sleep(4000);
+
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[2]/div[2]/div[2]/div/button")).click();
+				Thread.sleep(3000);
+												
 				
 	}
 	

@@ -28,9 +28,10 @@ public class EventCreate extends Superclass{
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div/div/div/div[1]/div/div/div/div/ul/li[2]/div/span")).click();
 				Thread.sleep(3000);
 				
+
 				//click to view company page
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div[1]/div[2]/div/div[1]/div/div[1]/div/div/div/img")).click();
-				Thread.sleep(3000);
+				Thread.sleep(6000);
 				
 				//click on Create Button
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[1]/div/div/div/button[5]/div/h5[1]")).click();

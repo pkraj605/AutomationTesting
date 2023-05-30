@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import commonClassLinkcxo.AuthCommon;
 import commonClassLinkcxo.Superclass;
 
-public class PollCreate extends Superclass{
+public class PollDelete extends Superclass{
 
 	public static void main(String[] args) throws InterruptedException {
 		
@@ -86,7 +86,17 @@ public class PollCreate extends Superclass{
 			
 				//click on comment Button
 				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[3]/div/div[2]/div/button")).click();
+				Thread.sleep(8000);
+				
+				//Poll Delete
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/div/button")).click();									 
 				Thread.sleep(5000);
+
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/div/div/div/div/ul/li/div/span")).click();
+				Thread.sleep(4000);
+
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[2]/div[2]/div[2]/div/button")).click();
+				Thread.sleep(3000);
 				
 				
 		}

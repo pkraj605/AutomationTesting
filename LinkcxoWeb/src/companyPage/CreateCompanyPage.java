@@ -61,7 +61,7 @@ public class CreateCompanyPage extends Superclass{
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div[2]/div/form/div[2]/div[2]/div/div[1]/div/div/input")).sendKeys("We Can do our best");
 				Thread.sleep(4000);
 				
-				//Enter Tagline
+				//Enter Page Name
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div[2]/div/form/div[4]/div[2]/div/div[1]/div/div/input")).sendKeys("Micromax Page");
 				Thread.sleep(4000);
 				
@@ -103,12 +103,7 @@ public class CreateCompanyPage extends Superclass{
 				Thread.sleep(4000);
 				
 				
-				
-				
-				
-							
-				
-				
+					
 				
 		
 	}
