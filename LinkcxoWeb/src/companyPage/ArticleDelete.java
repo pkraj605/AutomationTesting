@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import commonClassLinkcxo.AuthCommon;
 import commonClassLinkcxo.Superclass;
 
-public class ArticleCreate extends Superclass{
+public class ArticleDelete extends Superclass{
 
 	public static void main(String[] args) throws InterruptedException {
 		
@@ -49,40 +49,19 @@ public class ArticleCreate extends Superclass{
 				//Click on Create Button
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[4]/div/button")).click();
 				Thread.sleep(8000);
-					
 				
-				//---------------------------------Like, Comment,
-				
-				//click on like button
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/div/div[1]/div/button")).click();
-				Thread.sleep(8000);				  
-				
-				//click on comment Button
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/div/div[2]/div/button")).click();
+				//Delete post
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/div/button")).click();
 				Thread.sleep(5000);
+
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[1]/div[3]/div/div/div/div/ul/li[2]/div/span")).click();
+				Thread.sleep(4000);
+
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[2]/div[2]/div[2]/div/button")).click();
+				Thread.sleep(3000);
+										
 				
-				//Enter comment data
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[5]/div/div/div[1]/div/div[2]/div/div/div/textarea[1]")).sendKeys("Test Data");
-				Thread.sleep(5000);
-				
-				//click on post Button
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[5]/div/div/div[1]/div/div[3]/div/div/button")).click();
-				Thread.sleep(5000);
-				
-				//click on comment Button
-				getdriver().findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div[2]/div[1]/div/div[4]/div/div[2]/div/button")).click();
-				Thread.sleep(5000);
 				
 	}
 	
 }
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
