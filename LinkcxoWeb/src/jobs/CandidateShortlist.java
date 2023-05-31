@@ -45,11 +45,7 @@ public class CandidateShortlist extends Superclass{
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div[2]/div[2]/div/div/div/div/div[3]/div/div[2]/button")).click();
 				Thread.sleep(4000);
 						
-				
-				
-
-		
-		
+					
 		
 	}
 
