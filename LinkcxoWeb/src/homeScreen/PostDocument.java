@@ -30,7 +30,7 @@ public class PostDocument extends Superclass{
 
 		//click on Submit button
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[6]/div[2]/div/div/button")).click();
-		Thread.sleep(10000);
+		Thread.sleep(8000);
 
 	
 	}
