@@ -11,7 +11,7 @@ public class AuthorisedNo extends Superclass{
 		//Login
 		AuthCommon auth = new AuthCommon();
 		auth.login();
-		Thread.sleep(6000);
+		Thread.sleep(8000);
 		
 		//Click on profile
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/aside[1]/div/div[1]/div/div[1]/div/img")).click();
