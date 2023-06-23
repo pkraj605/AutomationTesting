@@ -30,7 +30,7 @@ public class EventEdit extends Superclass{
 				
 				//Select Image
 						WebElement selImage = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div[1]/div/div/div[1]/input"));
-						selImage.sendKeys("D:/we (1).jpeg");	
+						selImage.sendKeys("D:/images.jpg");	
 						Thread.sleep(3000);
 											
 						//Event name update

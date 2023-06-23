@@ -25,7 +25,7 @@ public class PostDocument extends Superclass{
 		//driver.findElement(By.xpath("//label[@for='icon-button-doc']//div[@class='MuiBox-root css-inrloo']")).click();
 		//Document Upload
 		WebElement chooseDoc = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[3]/div/div[2]/div[1]/input"));
-		chooseDoc.sendKeys("C:/Users/prabh/OneDrive/Desktop/pemp file/Manual Interview Questions.pdf");
+		chooseDoc.sendKeys("D:/Questions.pdf");
 		Thread.sleep(5000);
 
 		//click on Submit button
