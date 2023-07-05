@@ -39,19 +39,19 @@ public class PollDelete extends Superclass{
 
 		//Click on Submit button
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/form/div[5]/div[2]/div/div[1]/div/button")).click();
-		Thread.sleep(6000);
+		Thread.sleep(4000);
 
 		//Click on three dot option
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div/button")).click();
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 
 		//Click on delete option
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[2]/div/div/div[1]/div/div[1]/div[3]/div/div/div/div/ul/li/div/span")).click();
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 
 		//Click on yes button
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[2]/div[2]/div[2]/div/button")).click();
-		Thread.sleep(5000);
+		Thread.sleep(4000);
 
 
 

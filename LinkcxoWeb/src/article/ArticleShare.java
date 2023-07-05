@@ -12,7 +12,6 @@ public class ArticleShare extends Superclass{
 		AuthCommon auth = new AuthCommon();
 		auth.login();
 
-
 		//create Article button
 				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div/div[3]/button[2]")).click();
 				Thread.sleep(3000);
@@ -40,7 +39,6 @@ public class ArticleShare extends Superclass{
 		//click on post button
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[4]/div[2]/div/div/button")).click();
 		
-
 
 	}
 

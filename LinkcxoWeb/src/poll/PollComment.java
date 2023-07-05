@@ -26,7 +26,7 @@ public class PollComment extends Superclass{
 		Thread.sleep(2000);
 
 		//Enter Option Two
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/form/div[2]/div/div[2]/div/div/div/input")).sendKeys("Austaliya");
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/form/div[2]/div/div[2]/div/div/div/input")).sendKeys("Australiya");
 		Thread.sleep(2000);
 
 		//Click on choose days
@@ -42,7 +42,8 @@ public class PollComment extends Superclass{
 		Thread.sleep(7000);
 
 		//Click on comment icon
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[2]/div/div/div[1]/div/div[3]/div/div[2]/div/button/div/img")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[2]/div/div/div[1]/div/div[3]/div/div[2]/div/h6")).click();
+									
 		Thread.sleep(3000);
 
 		//Enter comment 
@@ -51,11 +52,11 @@ public class PollComment extends Superclass{
 
 		//click on post button
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[2]/div/div/div[1]/div/div[4]/div/div/div[1]/div/div[3]/div/div/button")).click();
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 
 		//Click on comment icon
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[2]/div/div/div[1]/div/div[3]/div/div[2]/div/button/div/img")).click();
-		Thread.sleep(3000);
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[2]/div/div/div[1]/div/div[3]/div/div[2]/div/h6s")).click();
+		Thread.sleep(4000);
 
 	}
 

@@ -13,7 +13,6 @@ public class PostDocument extends Superclass{
 		AuthCommon auth = new AuthCommon();
 		auth.login();
 
-
 		//click on share your experience
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div/div[3]/button[1]")).click();
 		Thread.sleep(2000);

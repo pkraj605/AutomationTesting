@@ -23,11 +23,13 @@ public class PostVideo extends Superclass{
 
 		//Upload Video
 		WebElement chooseVideo = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[3]/div/div[3]/div[1]/input"));
-		chooseVideo.sendKeys("D:/Best whatsapp status about life __ Life status __ Best life quotes __ Best words.mp4");
+		chooseVideo.sendKeys("D:/Best whatsapp Best words.mp4");
 
 		//click on Submit button
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div/div[5]/div[2]/div/div/button")).click();
 		Thread.sleep(8000);
+		
+		
 	}
 
 }

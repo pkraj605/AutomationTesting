@@ -13,14 +13,14 @@ public class PeopleConnect extends Superclass{
 		AuthCommon auth = new AuthCommon();
 		auth.login();
 		
-		
+				
+		//cross button click
+		//driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/aside[2]/div/div[2]/div/div/div[3]/div/div")).click();
+		//Thread.sleep(300000);
+	
 		//connect button click
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/aside[2]/div/div[2]/div/div/div[2]/span/div/div/div[2]/div/button")).click();
-		Thread.sleep(5000);
-		
-		//connect button click
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/aside[2]/div/div[2]/div/div/div[3]/div/div")).click();
-		Thread.sleep(5000);
+		Thread.sleep(300000);
 	}
 
 }
