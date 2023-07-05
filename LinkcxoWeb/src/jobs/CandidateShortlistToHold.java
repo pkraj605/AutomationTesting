@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import commonClassLinkcxo.AuthCommon;
 import commonClassLinkcxo.Superclass;
 
-public class CandidateHold extends Superclass{
+public class CandidateShortlistToHold extends Superclass{
 
 	public static void main(String[] args) throws InterruptedException {
 		//Login
@@ -24,10 +24,10 @@ public class CandidateHold extends Superclass{
 		
 		//click on hire tab
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[3]/div/div[1]/div/div/button[1]/div/h5s")).click();
-		Thread.sleep(4000);
+		Thread.sleep(20000);
 		
 		//click for Job view
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[3]/div/div[2]/div/div/div/div/div/div[1]/div[1]/div/div[1]/div[1]/span[1]/div/h5s")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[3]/div/div[2]/div/div/div/div/div/div[1]/div[1]/div/div[1]/div[1]/span[1]/div/h5s")).click();								
 		Thread.sleep(4000);
 		
 		for(String winHandle:driver.getWindowHandles())
@@ -39,10 +39,10 @@ public class CandidateHold extends Superclass{
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		WebElement Element = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div[1]/div"));
 		js.executeScript("arguments[0].scrollIntoView();",Element );
-	    Thread.sleep(5000);
+	    Thread.sleep(15000);
 			
-		//click on candidate>>hold
-		driver.findElement(By.xpath("//*[@id=\"root\"]/div[2]/div/main/div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[3]/div/div[1]/button")).click();
+		//click shortlist to hold
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div[2]/div[4]/div/div/div/div[2]/div[3]/div/div[1]/button")).click();
 		Thread.sleep(4000);
 
 	}

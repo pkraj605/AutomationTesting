@@ -20,11 +20,11 @@ public class JobEdit extends Superclass{
 
 		//click on hire tab
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div/div/button[2]/div/h5[1]")).click();
-		Thread.sleep(4000);
+		Thread.sleep(20000);
 		
 		//click on open job tab
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[3]/div/div[1]/div/div/button[1]/div/h5s")).click();
-		Thread.sleep(4000);
+		//driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[3]/div/div[1]/div/div/button[1]/div/h5s")).click();
+		//Thread.sleep(30000);
 		
 
 		//click job edit tab
