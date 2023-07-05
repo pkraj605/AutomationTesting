@@ -25,7 +25,7 @@ public class JobHireShare extends Superclass{
 				
 		//click on open job tab
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[3]/div/div[1]/div/div/button[1]/div/h5s")).click();
-		Thread.sleep(4000);
+		Thread.sleep(35000);
 				
 		//click on share icon button
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[3]/div/div[2]/div/div/div/div/div/div[1]/div[1]/div/div[1]/div[2]/div/button[1]")).click();
