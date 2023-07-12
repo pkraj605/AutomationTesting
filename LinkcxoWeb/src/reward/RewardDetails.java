@@ -15,7 +15,7 @@ public class RewardDetails extends Superclass{
 		
 		
 		//Reward tab click
-		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/header/div/div/div[2]/div[3]/div[5]/div[1]/img")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/header/div/div/div[2]/div[3]/div[3]/div[2]/h2")).click();
 		Thread.sleep(5000);
 		
 		//Details

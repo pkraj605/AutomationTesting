@@ -35,7 +35,7 @@ public class CreateEvent extends Superclass{
 				Thread.sleep(3000);
 				
 				//Put The event Name
-				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div[2]/div/form/div[1]/div[2]/div/div[1]/div/div/input")).sendKeys("Personal Bangalore End");
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div[2]/div/form/div[1]/div[2]/div/div[1]/div/div/input")).sendKeys("Mumbai Events");
 				Thread.sleep(2000);
 				
 				//Put The event details

@@ -23,9 +23,7 @@ public class MembershipDetails extends Superclass{
 		
 		//View Detail
 		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[3]/div/div/div/div[2]/div/div[2]/div[5]/div/div[2]/div/button")).click();
-		Thread.sleep(5000);
-		
-		
+		Thread.sleep(5000);		
 		
 	}
   

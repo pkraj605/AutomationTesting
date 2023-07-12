@@ -15,19 +15,23 @@ public class EventEdit extends Superclass{
 		AuthCommon auth = new AuthCommon();
 		auth.login();
 		
-		//Click on event Tab
-				driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/header/div/div/div[2]/div[3]/div[3]/div[2]/h2")).click();
+		//Click on three dot option
+				driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/header/div/div/div[2]/div[3]/div[6]/button")).click();
+				Thread.sleep(5000);
+							
+				
+				//Click on Event Option
+				driver.findElement(By.xpath("/html/body/div[2]/div[3]/ul/ul[1]/li[2]")).click();
 				Thread.sleep(5000);
 				
 				//Click on host Tab 
-				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[1]/div/button[1]/div/h5[1]")).click();
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[3]/div/div[1]/div/div/button[1]/div/div/h5[1]")).click();
 				Thread.sleep(5000);
-
+				
 				//Click on Edit button
-				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[2]/div/div[1]/div/div[1]/div/div/div[1]/div/div/div[2]/div/div[1]/div/button")).click();
+				driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div[1]/div/div/div[3]/div/div[2]/div/div/div[1]/div[1]/div/div/div[1]/div[1]/div/div/div[2]/div/div[1]/div/button")).click();
 				Thread.sleep(5000);
-				
-				
+								
 				//Select Image
 						WebElement selImage = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[2]/div/div[1]/div/div/div[1]/input"));
 						selImage.sendKeys("D:/images.jpg");	

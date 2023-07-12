@@ -15,14 +15,19 @@ public class UserProfileView extends Superclass{
 		
 		//click on network Module
 		driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/header/div/div/div[2]/div[3]/div[1]/div[2]/h2")).click();
-		Thread.sleep(2000);
+		Thread.sleep(4000);
+		
+		//click on my network Module
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div/div/div[1]/div/button[2]/div/h5[1]")).click();
+		Thread.sleep(5000);
 		
 		//click on existing tab
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[1]/div[1]/div[1]/div/button[3]/div/h5[1]")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div/div/div[3]/div/div[1]/div/div/button[3]/div/h5[1]")).click();
 		Thread.sleep(2000);
 		
+		
 		//view User profile
-		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div[1]/div/div[4]/div/div[2]/div/img")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/main/div/div/div/div/div[3]/div/div[4]/div/div/div/div/div/div[1]/div/div/img")).click();
 		Thread.sleep(2000);
 	}
 
